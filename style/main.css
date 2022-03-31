@@ -16,6 +16,10 @@ body{
     color: white; /* Trocar */
 }
 
+header{
+    height: 87px; /* RETIRAR CASO NÃO REDIMENSIONE*/
+}
+
 header nav a{
     text-decoration: none;
     color: #B7B7B7;
@@ -51,4 +55,48 @@ header .container{
 
     height: 550px;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.FilmePrincipal .descricao{
+    margin-bottom: 60px;
+    margin-top: 10px;
+
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 38px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button{
+    background-color: rgba(5, 5, 5, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 18px;
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: .3s ease all;
+
+    
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.3s;
+}
+
+.button i{
+    margin-right: 8px;
+    font-size: 18px;
 }
