@@ -12,7 +12,7 @@
 
 body{
     background-color: var(--BlackBackgroung);
-    font-family: 'Times New Roman', Times, serif; /* Mudar para Gothan depois### */
+    font-family: Arial, Helvetica, sans-serif; /* Mudar para Gothan depois### */
     color: white; /* Trocar */
 }
 
@@ -51,7 +51,7 @@ header .container{
 /* Filme principal (Card) */
 .FilmePrincipal{
     font-size: 17px;
-    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%) ,url(/img/fundo_futebol.jpg);
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50) 100%) ,url(/img/fundo_futebol.jpg);
 
     height: 550px;
     background-size: cover;
@@ -60,6 +60,8 @@ header .container{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    margin-bottom: 40px;
 }
 
 .FilmePrincipal .descricao{
@@ -99,4 +101,30 @@ header .container{
 .button i{
     margin-right: 8px;
     font-size: 18px;
+}
+
+
+.FilmePrincipal .container{
+    margin-left: 80px;
+    width: 70%;
+}
+
+
+/* Carrousel */
+
+.titulo_carrousel .container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.box_filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel_filmes{
+    margin-top: 15px;
 }

@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Clone</title>
     <link rel="stylesheet" href="style/main.css">
+
+    <!--Owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
 </head>
 
 <body>
@@ -16,10 +24,10 @@
             <img class="logo" src="img/futflix_mini.png" alt="logo_em_imagem">
 
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Documentários</a>
-                <a href="#">Jogadores</a>
-                <a href="#">Campeonatos</a>
+                <a href="">Inicio</a>
+                <a href="#parte01">Favoritos</a>
+                <a href="#parte02">Documentários</a>
+                <a href="#parte03">Outros</a>
             </nav>
 
         </div>
@@ -28,7 +36,6 @@
     <!--CARD-->
     <main>
         <div class="FilmePrincipal">
-
             <div class="container">
 
                 <h3 class="titulo">Bilardo: O Doutor do Futebol</h3>
@@ -41,17 +48,83 @@
                         <i class="fa-solid fa-play"></i>
                         Assistir agora
                     </button>
-        
                     <button role="button" class="button">
                         <i class="fa-solid fa-circle-info"></i>
                         Biografia
                     </button>
+
                 </div>
             </div>
         </div>
     </main>
 
+    <!--Carrousel-->
+    <div class="titulo_carrousel">
+        <div id="parte01" class="container">
+            Em alta
+        </div>
+    </div>
+    <div  class="carrousel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_01.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_02.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_03.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_04.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_05.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_06.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_07.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_08.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_09.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/filmes_series/fut_10.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <div class="titulo_carrousel">
+        <div id="parte02" class="container">
+            Documentários
+        </div>
+    </div>
+    <div class="carrousel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_01.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_02.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_03.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_04.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_05.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_06.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_07.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_08.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_09.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/documentarios/doc_10.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <div class="titulo_carrousel">
+        <div id="parte03" class="container">
+            Mais sobre o futebol
+        </div>
+    </div>
+    <div class="carrousel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <img class="box_filme" src="img/outros/outros_01.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_02.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_03.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_04.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_05.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_06.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_07.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_08.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_09.jpg" alt=""></div>
+            <div class="item"> <img class="box_filme" src="img/outros/outros_10.jpg" alt=""></div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/d07c4b2eb6.js" crossorigin="anonymous"></script>
+
+    <!--Owl Js-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 
 </body>
 </html>
