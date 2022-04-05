@@ -18,6 +18,11 @@ body{
 
 header{
     height: 87px; /* RETIRAR CASO NÃO REDIMENSIONE*/
+    background-color: var(--BlackBackgroung);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    
 }
 
 header nav a{
@@ -45,6 +50,7 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between; /* Movo os elementos do container */
+    
 }
 
 
@@ -130,17 +136,52 @@ header .container{
 }
 
 /* Footer */
+
 .footer_page .social_container{
     margin-top: 60px;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-left: 400px;
 
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
 
 }
 
 .social_container i{
-    padding: 40px;
+    padding-left: 55px;
+    
+}
+
+.social_container a{
+    color: #fff;
+}
+
+.social_container a:hover{
+    color: #b6b6b6;
+    transition: 0.3s;
+}
+
+.footer_page .container{
+    display: flex;
+    align-items: center;
+    margin-left: 380px;
+    margin-bottom: 150px;
+}
+
+.info_links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.info_links a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #616161;
+}
+
+.info_links a:hover{
+    color: #9f9f9f;
 }
