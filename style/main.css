@@ -128,3 +128,19 @@ header .container{
 .carrousel_filmes{
     margin-top: 15px;
 }
+
+/* Footer */
+.footer_page .social_container{
+    margin-top: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+
+}
+
+.social_container i{
+    padding: 40px;
+}
